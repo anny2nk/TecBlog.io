@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/*Layout*/
+#area-cabecalho {
+    background-color: #000080;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-menu {
+    padding: 10px;
+}
+#area-principal {
+    background: #ffffff;
+    width: 920px;
+    margin: 0 auto;
+}
+#area-postagens, #area-lateral{
+    background: #ffffff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#area-postagens {
+    background-color: #ffffff;
+    width: 660px;
+    float: left;
+}
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+.postegem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+.conteudo-lateral {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #000080EE;
+}
+
+/*Formatação do Menu*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #000080EE;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #ffffff;
+    padding: 8px 12px;
+}
+#area-cabecalho a:hover {
+    color: #000000;
+    background-color: #4169E1;
+    text-decoration: underline;
+}
+
+/*Formatçãao Geral*/
+h1 {
+    font-size: 2.5em;
+    color: #000000;
+    
+}
+h2 {
+    color: #000080;
+}
+h3 {
+    color: #000080;
+    background: #4169E1;
+    padding: 5px;
+}
+.branco {
+    color: white;
+}
+.data-postgem {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
